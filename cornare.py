@@ -17,7 +17,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ------------------------------------------------------------------
-# Coordenadas Puerto Triunfo, Río Cocorná Sur, Corregimiento Estación Cocorná,
+# Coordenadas Puerto Triunfo, Río Cocorná Sur, Corregimiento Estación Cocorná
 # la API trae la latitud/longitud de la estación.
 # ------------------------------------------------------------------
 LAT_DEFECTO = 6.0346
