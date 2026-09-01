@@ -162,7 +162,7 @@ if consultar:
             # --- Mapa de la estación ---
             st.subheader("Ubicación de la estación")
             if not coords_reales:
-                st.caption("Coordenadas Puerto Triunfo, Río Cocorná Sur, Corregimiento Estación Cocorná. Ajusta `CANDIDATOS_LAT` / `CANDIDATOS_LON` si conoces el nombre real de esas llaves.")
+                st.caption("Coordenadas Puerto Triunfo, Río Cocorná Sur, Corregimiento Estación Cocorná.")
             st.map(pd.DataFrame({"lat": [lat], "lon": [lon]}), zoom=10)
 
             # --- Detalle de calidad ---
